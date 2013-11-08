@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: #fefefe;
+    margin: 0;
+    padding: 0 0.25em;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: Francois One, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+#header h1 {
+    display: inline-block;
+    font-size: 3.4em;
+    line-height: 90%;
+    padding-top: 0.25em;
+    padding-bottom: 0.13em;
+    margin-bottom: 0.13em;
+    border-bottom: 0.13em #333 solid;
+}
+
+#header h2 {
+    font-size: 1.3em;
+}
+
+#skills {
+    display: table-row;
+    width: 100%;
+}
+
+#skills div {
+    display: table-cell;
+    padding: 1.3em;
+    width: 50%;
+}
+
+@media all and (min-width: 30em) {
+    body {
+        padding-top: 2em;
+    }
+}
