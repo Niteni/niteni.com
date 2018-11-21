@@ -1,14 +1,71 @@
 body {
-    text-align: center;
-    background: #fefefe;
-    margin: 0;
-    padding: 0 0.25em;
-    color: #333;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background: url("img/headerbg.jpg") top right / 100% 21em no-repeat local padding-box content-box black;
+    color: moccasin;
+    font-size: 125%;
 }
 
-h1, h2 {
-    font-family: Francois One, Helvetica, sans-serif;
-    font-weight: normal;
+h1, h2, h3 {
+    color: orange;
+}
+
+header {
     text-transform: uppercase;
-    margin: 0 auto;
+}
+
+body>header {
+    height: 21em;
+    padding: 0.5em 1em;
+}
+
+header h1 {
+    font-size: 500%;
+    font-weight: bolder;
+    line-height: 66%;
+}
+
+header h1 small {
+    font-size: 46%;
+    display: block;
+    font-weight: normal;
+}
+
+#tagline {
+    font-size: 200%;
+    font-weight: normal;
+    text-align: center;
+    text-transform: normal;
+    padding: 1em;
+}
+
+#content-wrapper {
+    background: url("img/bodybg.jpg") top center / 100% no-repeat local black;
+    padding-top: 2em;
+}
+
+#vision, .offering {
+    padding-bottom: 2em;
+}
+
+.offering>header {
+    margin-bottom: 2em;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    body {
+        background-size: 100% 50em;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
