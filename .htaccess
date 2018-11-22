@@ -2,5 +2,5 @@ Redirect /IanStevens-resume.pdf https://docs.google.com/file/d/0B2xDdQg0Z1RieEpa
 
 RewriteBase /
 RewriteEngine on
-RewriteRule ^card$ card.html [L]
+RewriteRule ^card$ c/card.html [L]
 
