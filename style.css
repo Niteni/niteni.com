@@ -8,7 +8,7 @@ h1, h2, h3 {
     color: orange;
 }
 
-header {
+header h1, header h2 {
     text-transform: uppercase;
 }
 
@@ -42,29 +42,49 @@ header h1 small {
     padding-top: 2em;
 }
 
-#vision, .offering, #offerings>section, #offerings>section>p {
+#vision,
+#offerings>section>header,
+#offerings>section>div,
+#contact,
+footer {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#vision,
+.offering,
+#offerings>section,
+#offerings>section>p {
     padding-bottom: 1em;
+}
+
+#offerings>section>header {
+    background-color: rgba(255,165,0,0.33);
+    padding-top: 2em;
+    padding-bottom: 0.1em;
+    margin-bottom: 2em;
 }
 
 .offering>header {
     margin-bottom: 2em;
 }
 
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    body {
-        background-size: 100% 50em;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #content {
+        width: 55em;
+        margin: auto;
     }
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-}
-
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
