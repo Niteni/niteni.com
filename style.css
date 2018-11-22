@@ -2,7 +2,6 @@ body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background: url("img/headerbg.jpg") top right / 100% 21em no-repeat local padding-box content-box black;
     color: moccasin;
-    font-size: 125%;
 }
 
 h1, h2, h3 {
@@ -43,8 +42,8 @@ header h1 small {
     padding-top: 2em;
 }
 
-#vision, .offering {
-    padding-bottom: 2em;
+#vision, .offering, #offerings>section, #offerings>section>p {
+    padding-bottom: 1em;
 }
 
 .offering>header {
