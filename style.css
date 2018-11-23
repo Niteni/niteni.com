@@ -84,6 +84,7 @@ footer {
     margin-bottom: 2em;
 }
 
+#vision,
 #contact form {
     max-width: 50em;
     margin: auto;
@@ -99,6 +100,12 @@ footer {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #vision,
+    .offering,
+    #offerings>section,
+    #offerings>section>p {
+        padding-bottom: 2em;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
