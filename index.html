@@ -112,8 +112,23 @@
             </section>
         </section>
 
-        <section id="contact">
-            <header><h2>Contact Us</h2></header>
+        <section id="contact" class="form-area">
+            <header>
+                <h2>Contact Us</h2>
+                <p>Need our help? Tell us why and we'll get back to you ASAP.</p>
+            </header>
+            <form role="form" action="https://formspree.io/istevens@niteni.com" method="POST">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="Name" name="name" required/>
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="Email" name="_replyto" required/>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Type your message here" maxlength="140" rows="7"></textarea>
+                </div>
+                <button id="submit" class="btn btn-primary pull-right" type="button">Send</button>
+            </form>
         </section>
 
         <footer>
