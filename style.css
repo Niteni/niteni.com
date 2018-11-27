@@ -47,41 +47,31 @@ footer {
     padding-top: 2em;
 }
 
-.container-fluid.full-width {
+.full-width {
     padding-left: 0;
     padding-right: 0;
     overflow-x: hidden;
 }
 
-#vision,
-#offerings>section>header,
-#offerings>section>div,
-#contact>header,
-#contact form,
-footer {
+.aligned-content {
     padding-right: 1em;
     padding-left: 1em;
 }
 
-#vision,
-.offering,
-#offerings>section,
-#offerings>section>p {
-    padding-bottom: 1em;
+.content-row {
+    padding-bottom: 0;
 }
 
-#offerings>section>header,
-#contact>header {
+.content-item {
+    padding-bottom: 2em;
+}
+
+.section-header {
     background-color: rgba(245,160,40,0.33);
     padding-top: 2em;
     padding-bottom: 0.1em;
     margin-bottom: 2em;
     margin-top: 1em;
-}
-
-.offering>header,
-#contact>header {
-    margin-bottom: 2em;
 }
 
 #vision,
@@ -101,22 +91,30 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    body {
+        background-size: 100% 34em;
+    }
+
+    body>header {
+        height: 34em;
+    }
+
+    header h1 {
+        font-size: 750%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    #vision,
-    .offering,
-    #offerings>section,
-    #offerings>section>p {
-        padding-bottom: 2em;
+    .content-row {
+        padding-bottom: 1em;
+    }
+
+    .content-item {
+        padding-bottom: 3em;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    #content {
-        width: 75em;
-        margin: auto;
-    }
 }
