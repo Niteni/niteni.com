@@ -1,11 +1,11 @@
 body {
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     background: url("img/headerbg.jpg") top right / 100% 21em no-repeat local padding-box content-box black;
-    color: moccasin;
+    color: #fad6a6;
 }
 
 h1, h2, h3 {
-    color: orange;
+    color: rgb(245,160,40);
 }
 
 header h1, header h2 {
@@ -72,7 +72,7 @@ footer {
 
 #offerings>section>header,
 #contact>header {
-    background-color: rgba(255,165,0,0.33);
+    background-color: rgba(245,160,40,0.33);
     padding-top: 2em;
     padding-bottom: 0.1em;
     margin-bottom: 2em;
@@ -88,6 +88,11 @@ footer {
 #contact form {
     max-width: 50em;
     margin: auto;
+}
+
+.form-control {
+    background-color: #fceeda;
+    color: black;
 }
 
 /* Small devices (landscape phones, 576px and up) */
