@@ -1,111 +1,45 @@
 body {
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    background: url("img/headerbg.jpg") top right / 100% 21em no-repeat local padding-box content-box black;
-    color: #fad6a6;
-}
-
-h1, h2, h3 {
-    color: rgb(245,160,40);
-}
-
-h1, #content h2 {
-    text-transform: uppercase;
-}
-
-body>header {
-    height: 21em;
-    padding: 0.5em 1em;
-}
-
-header h1 {
-    font-size: 500%;
-    font-weight: bolder;
-    line-height: 66%;
-}
-
-header h1 small {
-    font-size: 46%;
-    display: block;
-    font-weight: normal;
-}
-
-footer {
-    color: darkgrey;
-    margin-top: 5em;
-}
-
-#tagline {
-    font-size: 200%;
-    font-weight: normal;
     text-align: center;
-    padding: 1em;
+    background: #fefefe;
+    margin: 0;
+    padding: 0 0.25em;
+    color: #333;
 }
 
-#content {
-    background: url("img/bodybg.jpg") top center / 100% no-repeat local black;
+h1, h2 {
+    font-family: Francois One, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 auto;
 }
 
-.full-width {
-    padding-left: 0;
-    padding-right: 0;
-    overflow-x: hidden;
+#header h1 {
+    display: inline-block;
+    font-size: 3.4em;
+    line-height: 90%;
+    padding-top: 0.25em;
+    padding-bottom: 0.13em;
+    margin-bottom: 0.13em;
+    border-bottom: 0.13em #333 solid;
 }
 
-.aligned-content {
-    padding-right: 1em;
-    padding-left: 1em;
+#header h2 {
+    font-size: 1.3em;
 }
 
-.content-item {
-    padding-bottom: 1em;
+#skills {
+    display: table-row;
+    width: 100%;
 }
 
-.section-header {
-    background-color: rgba(245,160,40,0.33);
-    padding-top: 2em;
-    padding-bottom: 0.1em;
-    margin-bottom: 2em;
-    margin-top: 2em;
+#skills div {
+    display: table-cell;
+    padding: 1.3em;
+    width: 50%;
 }
 
-#vision,
-#contact form {
-    max-width: 50em;
-    margin: auto;
-}
-
-.form-control {
-    background-color: #fceeda;
-    color: black;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media all and (min-width: 30em) {
     body {
-        background-size: 100% 34em;
+        padding-top: 2em;
     }
-
-    body>header {
-        height: 34em;
-    }
-
-    header h1 {
-        font-size: 750%;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-    .content-item {
-        padding-bottom: 2em;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
 }
