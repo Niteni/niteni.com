@@ -59,11 +59,12 @@ footer {
 }
 
 .content-row {
-    padding-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
 }
 
 .content-item {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .section-header {
@@ -107,11 +108,12 @@ footer {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .content-row {
+        padding-top: 1em;
         padding-bottom: 1em;
     }
 
     .content-item {
-        padding-bottom: 3em;
+        padding-bottom: 2em;
     }
 }
 
