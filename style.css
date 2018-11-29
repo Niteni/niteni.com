@@ -69,15 +69,23 @@ footer {
     margin-bottom: 2em;
 }
 
+.section-header h2 {
+    padding-bottom: 0.25em;
+}
+
 #vision {
     padding-top: 1em;
+}
+
+#vision p,
+.section-header p {
+    font-size: 125%;
 }
 
 #vision,
 #contact form {
     max-width: 50em;
     margin: auto;
-    margin-bottom: 1em;
 }
 
 .form-control {
