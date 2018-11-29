@@ -8,7 +8,7 @@ h1, h2, h3 {
     color: rgb(245,160,40);
 }
 
-h1, #content h2 {
+h1 {
     text-transform: uppercase;
 }
 
@@ -36,7 +36,6 @@ footer {
 }
 
 #tagline {
-    font-weight: normal;
     text-align: center;
     padding: 1em;
     margin: 0;
@@ -44,6 +43,10 @@ footer {
 
 #content {
     background: url("img/bodybg.jpg") top center / 100% no-repeat local black;
+}
+
+h3 {
+    font-weight: normal;
 }
 
 .full-width {
@@ -84,7 +87,6 @@ footer {
 
 #vision,
 #contact form {
-    max-width: 50em;
     margin: auto;
 }
 
@@ -110,18 +112,6 @@ footer {
     header h1 {
         font-size: 750%;
     }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-    body>header {
-        margin-bottom: 3em;
-    }
-
-    #vision {
-        padding-top: 3em;
-    }
 
     .content-item {
         padding-bottom: 2em;
@@ -131,6 +121,10 @@ footer {
         margin-bottom: 3em;
         margin-top: 2em;
     }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
