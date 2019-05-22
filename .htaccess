@@ -1,6 +1,0 @@
-Redirect /IanStevens-resume.pdf https://docs.google.com/file/d/0B2xDdQg0Z1RieEpaWk5SUFJIMHc/edit?usp=sharing
-
-RewriteBase /
-RewriteEngine on
-RewriteRule ^card$ c/card.html [L]
-
